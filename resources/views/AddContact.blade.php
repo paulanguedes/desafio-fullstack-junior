@@ -16,7 +16,7 @@
                 <label for="customer">Cliente</label>
                 <br>
                 <select name="customer" id="customer" required>
-                    <option disabled  value="">Escolha uma opção</option>
+                    <option disabled selected value="">Escolha uma opção</option>
                     <option value="cliente2">Cliente 2</option>
                     <option value="cliente3">Cliente 3</option>
                     <option value="cliente4">Cliente 4</option>

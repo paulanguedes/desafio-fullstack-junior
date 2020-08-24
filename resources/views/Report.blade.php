@@ -1,4 +1,4 @@
-@extends('template')
+@extends('navbar')
 
 @section('title')
     Relatório
