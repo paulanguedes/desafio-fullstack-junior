@@ -15,7 +15,18 @@ class CreateContactsTable extends Migration
     {
         Schema::create('contacts', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+
+            $table
+                ->foreignId('customer_id')
+                ->constrained('customers')
+                ->onDelete('cascade')
+                ->onUpdate('cascade')
+            ;
+
+            $table->string('name', 100);
+            $table->string('email', 100);
+            $table->string('phone', 100);
+            $table->timestampsTz();
         });
     }
 
