@@ -1,0 +1,81 @@
+main {
+    color: #011126;
+    height: 100vh;
+    text-align: center;
+    font: 1rem 'Lato', Arial, Helvetica, sans-serif;
+}
+#displayCustomers {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+#displayCustomers table {
+    border-collapse: collapse;
+    color: grey;
+}
+#displayCustomers th {
+    background-color: #011126;
+    color: white;
+    text-align: center;
+}
+#displayCustomers tr:nth-child(even){
+    background-color: white
+}
+#displayCustomers tr {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+#displayCustomers tr a {
+    text-decoration: none;
+    color: grey;
+}
+#displayCustomers tr a:hover {
+    color: black;
+    font-size: 1.4rem;
+}
+#displayCustomers tr:hover {
+    background-color: #F0F2AC;
+    color: black;
+}
+#displayCustomers td, th {
+    border: none;
+    padding: 0.4rem 0.8rem;
+    line-height: 2rem;
+}
+h2 {
+    font: 2.4rem 'Amatic SC', Arial, Helvetica, sans-serif;
+    margin-bottom: 0.6rem;
+}
+h5 {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+}
+form div {
+    margin-bottom: 1.2rem;
+}
+form div input {
+    margin-top: 0.6rem;
+    width: 40rem;
+    height: 1.8rem;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0 0.4rem;
+}
+form button {
+    width: 6rem;
+    height: 2rem;
+    border: none;
+    border-radius: 0.4rem;
+    background-color: #F0F2AC;
+    color: #011126;
+    transition: 0.2s;
+}
+form button:hover {
+    width: 5.8rem;
+    height: 1.8rem;
+    background-color: #C3D973;
+    box-shadow: 2px 2px 6px gray;
+}

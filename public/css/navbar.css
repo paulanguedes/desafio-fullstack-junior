@@ -41,7 +41,7 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     height: 4rem;
     width: 100%;
