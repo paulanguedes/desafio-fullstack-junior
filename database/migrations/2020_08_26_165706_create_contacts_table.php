@@ -14,19 +14,19 @@ class CreateContactsTable extends Migration
     public function up()
     {
         Schema::create('contacts', function (Blueprint $table) {
+            $table->engine = 'InnoDB';
             $table->id();
 
-            $table
-                ->foreignId('customer_id')
-                ->constrained('customers')
+            $table->foreignId('customer_id')
+                ->references('id')->on('customers')
                 ->onDelete('cascade')
                 ->onUpdate('cascade')
             ;
 
-            $table->string('name', 100);
-            $table->string('email', 100);
-            $table->string('phone', 100);
-            $table->timestampsTz();
+            $table->string('name');
+            $table->string('email');
+            $table->string('phone');
+            $table->timestamps();
         });
     }
 
