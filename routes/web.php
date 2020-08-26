@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/', 'welcome');
-Route::view('/add-customer', 'AddCustomer');
-Route::view('/add-contact', 'AddContact');
+Route::view('/customer', 'Customer');
+Route::view('/contact', 'Contact');
 Route::view('/report', 'Report');
 
