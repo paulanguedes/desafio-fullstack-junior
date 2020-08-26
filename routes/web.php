@@ -14,7 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/', 'welcome');
+
 Route::view('/customer', 'Customer');
+Route::get('/customer', 'CustomerController@index');
+Route::get('/edit/{id}', 'CustomerController@edit');
+Route::put('/update/{id}', 'CustomerController@update');
+
 Route::view('/contact', 'Contact');
 Route::view('/report', 'Report');
 

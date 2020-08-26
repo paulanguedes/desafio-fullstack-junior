@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Customer;
 use Illuminate\Http\Request;
 
 class CustomerController extends Controller
@@ -13,7 +14,8 @@ class CustomerController extends Controller
      */
     public function index()
     {
-        //
+        $customers = Customer::all();
+        return view('Customer')->with('customers', $customers);
     }
 
     /**
@@ -56,7 +58,8 @@ class CustomerController extends Controller
      */
     public function edit($id)
     {
-        //
+        $customers = Customer::find($id);
+        return view('Edit-Customer')->with('customers', $customers);
     }
 
     /**
@@ -68,7 +71,16 @@ class CustomerController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $customers = Customer::find($id);
+
+        $customers->id = $request->id; //input('id');
+        $customers->customer = $request->customer; //input('customer');
+        $customers->email = $request->email; //input('email');
+        $customers->phone = $request->phone; //input('phone');
+
+        $customers->save();
+        
+        return redirect('/customer');
     }
 
     /**
