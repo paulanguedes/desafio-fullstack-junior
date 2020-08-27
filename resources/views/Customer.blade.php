@@ -26,7 +26,7 @@
                     <td> {{ $item->created_at }} </td>
                     <td> {{ $item->id }} </td>
                     <td><a href="/edit/{{ $item->id }}">&#10000</a></td>
-                    <td><a href="/edit/{{ $item->id }}">&#10000</a></td>
+                    <td><a href="/delete/{{ $item->id }}">&#9747</a></td>
                 </tr>
             @endforeach
         </table>

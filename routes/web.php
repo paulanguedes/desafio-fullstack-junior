@@ -20,6 +20,8 @@ Route::get('/customer', 'CustomerController@index');
 Route::get('/edit/{id}', 'CustomerController@edit');
 Route::put('/update/{id}', 'CustomerController@update');
 Route::post('/addCustomer', 'CustomerController@store')->name('addCustomer');
+Route::get('/delete/{id}', 'CustomerController@destroy');
+
 
 Route::view('/contact', 'Contact');
 Route::view('/report', 'Report');
