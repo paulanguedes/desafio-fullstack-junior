@@ -14,7 +14,9 @@
               <th>E-mail</th>
               <th>Telefone</th>
               <th>Data de registro</th>
+              <th>ID</th>
               <th>Editar</th>
+              <th>Deletar</th>
             </tr>
             @foreach ($customers as $item)
                 <tr>
@@ -22,6 +24,8 @@
                     <td> {{ $item->email }} </td>
                     <td> {{ $item->phone }} </td>
                     <td> {{ $item->created_at }} </td>
+                    <td> {{ $item->id }} </td>
+                    <td><a href="/edit/{{ $item->id }}">&#10000</a></td>
                     <td><a href="/edit/{{ $item->id }}">&#10000</a></td>
                 </tr>
             @endforeach
@@ -32,7 +36,7 @@
     <h2>cadastrar cliente</h2>
     <h5>*Todos os campos são obrigatórios</h5>
 
-    <form method="post">
+    <form action="{{ route('addCustomer') }}" method="post">
         @csrf
         <div id="customer">
             <label for="customer">Nome completo da empresa</label>
