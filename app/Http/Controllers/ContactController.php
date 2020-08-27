@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Contact;
+use App\Customer;
 use Illuminate\Http\Request;
 
 class ContactController extends Controller
@@ -36,7 +37,16 @@ class ContactController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $contact = new Contact();
+
+        $contact->customer_id = $request->customer_id;
+        $contact->name = $request->name;
+        $contact->email = $request->email;
+        $contact->phone = $request->phone;
+
+        $contact->save();
+
+        return redirect('/contact');
     }
 
     /**
@@ -47,7 +57,8 @@ class ContactController extends Controller
      */
     public function show($id)
     {
-        //
+        $customers = Customer::find($id);
+        return view('Contact')->with('customers', $customers);
     }
 
     /**

@@ -24,6 +24,8 @@ Route::get('/delete/{id}', 'CustomerController@destroy');
 
 Route::view('/contact', 'Contact');
 Route::get('/contact', 'ContactController@index');
+Route::post('/addContact', 'ContactController@store')->name('addContact');
+
 
 Route::view('/report', 'Report');
 
