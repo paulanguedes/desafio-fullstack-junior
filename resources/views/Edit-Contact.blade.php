@@ -1,13 +1,13 @@
 @extends('navbar')
 
-@section('title') Editar cliente @endsection
+@section('title') Editar contato @endsection
 
 <link rel="stylesheet" href="../css/customer.css">
 
 @section('main')
 
-    <h2>editar cliente</h2>
-    <h5>*Preencha somente os campos que deseja alterar</h5>
+    <h2>cadastrar cliente</h2>
+    <h5>*Todos os campos são obrigatórios</h5>
 
     <form action="{{ action('CustomerController@update', $customers->id) }}" method="post">
         @csrf
@@ -31,7 +31,7 @@
             <input type="tel" name="phone" id="phone" multiple value="{{ $customers->phone }}">
         </div>
         
-        <button type="submit">editar</button>
+        <button type="submit">salvar</button>
 
     </form>
 
