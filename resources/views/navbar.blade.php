@@ -18,8 +18,8 @@
             
             <a href="/"><h1 id="logo">CustomerX</h1></a>
             <ul>
-                <li><a id="add-customer" href="/add-customer">Cadastrar cliente</a></li>
-                <li><a id="add-contact" href="/add-contact">Novo contato</a></li>
+                <li><a id="add-customer" href="/customer">Clientes</a></li>
+                <li><a id="add-contact" href="/contact">Contatos</a></li>
                 <li><a id="report" href="/report">Relatório</a></li>  
             </ul>
 
