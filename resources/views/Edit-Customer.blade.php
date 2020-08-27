@@ -9,8 +9,8 @@
     <h2>cadastrar cliente</h2>
     <h5>*Todos os campos são obrigatórios</h5>
 
-    <form action="/update/{id}" method="post">
-
+    <form action="{{ action('CustomerController@update', $customers->id) }}" method="post">
+        @csrf
         {{ csrf_field() }}
         {{ method_field('PUT') }}
 
