@@ -45,9 +45,9 @@
             <input type="email" name="email" id="email" multiple required>
         </div>
         <div id="phone">
-            <label for="phone">Telefones (separe os e-mails com vírgula)</label>
+            <label for="phone">Telefones (somente números, sem espaço, separe por vírgula)</label>
             <br>
-            <input type="tel" name="phone" id="phone" multiple pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <input type="tel" name="phone" id="phone" multiple required>
         </div>
         
         <button type="submit">enviar</button>

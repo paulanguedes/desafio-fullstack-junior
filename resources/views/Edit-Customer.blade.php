@@ -2,7 +2,7 @@
 
 @section('title') Cadastrar cliente @endsection
 
-<link rel="stylesheet" href="../css/add-customer.css">
+<link rel="stylesheet" href="../css/customer.css">
 
 @section('main')
 
@@ -26,9 +26,9 @@
             <input type="email" name="email" id="email" multiple value="{{ $customers->email }}">
         </div>
         <div id="phone">
-            <label for="phone">Telefones (separe os e-mails com vírgula)</label>
+            <label for="phone">Telefones (somente números, sem espaço, separe por vírgula)</label>
             <br>
-            <input type="tel" name="phone" id="phone" multiple pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value="{{ $customers->phone }}">
+            <input type="tel" name="phone" id="phone" multiple value="{{ $customers->phone }}">
         </div>
         
         <button type="submit">salvar</button>
