@@ -22,7 +22,8 @@ Route::put('/update/{id}', 'CustomerController@update');
 Route::post('/addCustomer', 'CustomerController@store')->name('addCustomer');
 Route::get('/delete/{id}', 'CustomerController@destroy');
 
-
 Route::view('/contact', 'Contact');
+Route::get('/contact', 'ContactController@index');
+
 Route::view('/report', 'Report');
 

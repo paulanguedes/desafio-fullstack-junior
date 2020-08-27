@@ -2,11 +2,35 @@
 
 @section('title') Novo contato @endsection
 
-<link rel="stylesheet" href="../css/add-contact.css">
+<link rel="stylesheet" href="../css/contact.css">
 
 @section('main')
     
     <main>
+
+        <div id="contactList">
+            <table>
+                <tr>
+                  <th>ID do cliente</th>
+                  <th>Nome</th>
+                  <th>E-mail</th>
+                  <th>Telefone</th>
+                  <th>Editar</th>
+                  <th>Deletar</th>
+                </tr>
+                @foreach ($contacts as $item)
+                    <tr>
+                        <td> {{ $item->customer_id }} </td>
+                        <td> {{ $item->name }} </td>
+                        <td> {{ $item->email }} </td>
+                        <td> {{ $item->phone }} </td>
+                        <td><a href="/edit/{{ $item->id }}">&#10000</a></td>
+                        <td><a href="/delete/{{ $item->id }}">&#9747</a></td>
+                    </tr>
+                @endforeach
+            </table>
+        </div>
+        
         <h2>Novo contato</h2>
         <h5>*Todos os campos são obrigatórios</h5>
 

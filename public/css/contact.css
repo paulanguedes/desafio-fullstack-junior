@@ -1,9 +1,46 @@
 main {
     color: #011126;
-    margin-top: 3.4rem;
-    height: 100vh;
     text-align: center;
     font: 1rem 'Lato', Arial, Helvetica, sans-serif;
+}
+#contactList {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+#contactList table {
+    border-collapse: collapse;
+    color: grey;
+}
+#contactList th {
+    background-color: #011126;
+    color: white;
+    text-align: center;
+}
+#contactList tr:nth-child(even){
+    background-color: white
+}
+#contactList tr {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+#contactList tr a {
+    text-decoration: none;
+    color: grey;
+}
+#contactList tr a:hover {
+    color: black;
+    font-size: 1.4rem;
+}
+#contactList tr:hover {
+    background-color: #F0F2AC;
+    color: black;
+}
+#contactList td, th {
+    border: none;
+    padding: 0.4rem 0.8rem;
+    line-height: 2rem;
 }
 h2 {
     font: 2.4rem 'Amatic SC', Arial, Helvetica, sans-serif;
