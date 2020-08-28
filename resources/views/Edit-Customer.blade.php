@@ -9,8 +9,7 @@
     <h2>editar cliente</h2>
     <h5>*Preencha somente os campos que deseja alterar</h5>
 
-    <form action="{{ action('CustomerController@update', $customers->id) }}" method="post">
-        @csrf
+    <form action="/updateCustomer/{{ $customers->id }}" method="post">
         {{ csrf_field() }}
         {{ method_field('PUT') }}
 

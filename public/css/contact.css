@@ -70,6 +70,7 @@ form button {
     background-color: #F0F2AC;
     color: #011126;
     transition: 0.2s;
+    margin-bottom: 2rem;
 }
 form button:hover {
     width: 5.8rem;

@@ -81,10 +81,10 @@ class CustomerController extends Controller
     {
         $customers = Customer::find($id);
 
-        $customers->id = $request->id; //input('id');
-        $customers->customer = $request->customer; //input('customer');
-        $customers->email = $request->email; //input('email');
-        $customers->phone = $request->phone; //input('phone');
+        $customers->id = $request->id;
+        $customers->customer = $request->customer;
+        $customers->email = $request->email;
+        $customers->phone = $request->phone;
 
         $customers->save();
         

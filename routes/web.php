@@ -17,10 +17,10 @@ Route::view('/', 'welcome');
 
 Route::view('/customer', 'Customer');
 Route::get('/customer', 'CustomerController@index');
-Route::get('/edit/{id}', 'CustomerController@edit');
-Route::put('/update/{id}', 'CustomerController@update');
+Route::get('/editCustomer/{id}', 'CustomerController@edit');
+Route::put('/updateCustomer/{id}', 'CustomerController@update');
 Route::post('/addCustomer', 'CustomerController@store')->name('addCustomer');
-Route::get('/delete/{id}', 'CustomerController@destroy');
+Route::get('/deleteCustomer/{id}', 'CustomerController@destroy');
 
 Route::view('/contact', 'Contact');
 Route::get('/contact', 'ContactController@index');
