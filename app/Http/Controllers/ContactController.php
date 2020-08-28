@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Contact;
-use App\Customer;
 use Illuminate\Http\Request;
 
 class ContactController extends Controller
@@ -17,16 +16,6 @@ class ContactController extends Controller
     {
         $contacts = Contact::all();
         return view('Contact')->with('contacts', $contacts);
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
     }
 
     /**
@@ -47,18 +36,6 @@ class ContactController extends Controller
         $contact->save();
 
         return redirect('/contact');
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        $customers = Customer::find($id);
-        return view('Contact')->with('customers', $customers);
     }
 
     /**

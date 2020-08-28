@@ -1,0 +1,53 @@
+main {
+    color: #011126;
+    text-align: center;
+    font: 1rem 'Lato', Arial, Helvetica, sans-serif;
+}
+h2 {
+    font: 2.4rem 'Amatic SC', Arial, Helvetica, sans-serif;
+    margin-bottom: 0.6rem;
+}
+h3 {
+    font: 1.4rem 'Lato', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+#report {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+#report table {
+    border-collapse: collapse;
+    color: grey;
+}
+#report th {
+    background-color: #011126;
+    color: white;
+    text-align: center;
+}
+#report tr:nth-child(even){
+    background-color: white
+}
+#report tr {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+#report tr a {
+    text-decoration: none;
+    color: grey;
+}
+#report tr a:hover {
+    color: black;
+    font-size: 1.4rem;
+}
+#report tr:hover {
+    background-color: #F0F2AC;
+    color: black;
+}
+#report td, th {
+    border: none;
+    padding: 0.4rem 0.8rem;
+    line-height: 2rem;
+}

@@ -1,6 +1,6 @@
 @extends('navbar')
 
-@section('title') Novo contato @endsection
+@section('title') customerX - Contatos @endsection
 
 <link rel="stylesheet" href="../css/contact.css">
 

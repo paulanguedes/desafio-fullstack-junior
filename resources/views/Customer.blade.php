@@ -1,6 +1,6 @@
 @extends('navbar')
 
-@section('title') Cadastrar cliente @endsection
+@section('title') customerX - Clientes @endsection
 
 <link rel="stylesheet" href="../css/customer.css">
 

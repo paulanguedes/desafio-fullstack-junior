@@ -31,4 +31,5 @@ Route::get('/delete/{id}', 'ContactController@destroy');
 
 
 Route::view('/report', 'Report');
+Route::get('/report', 'ReportController@index');
 

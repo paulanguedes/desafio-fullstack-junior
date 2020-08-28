@@ -16,7 +16,7 @@
 
         <header>
             
-            <a href="/"><h1 id="logo">CustomerX</h1></a>
+            <a href="/"><h1 id="logo">customerX</h1></a>
             <ul>
                 <li><a id="add-customer" href="/customer">Clientes</a></li>
                 <li><a id="add-contact" href="/contact">Contatos</a></li>
