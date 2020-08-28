@@ -14,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/', 'welcome');
+Route::post('/addUser', 'UserController@store')->name('addUser');
+
+Route::view('/login', 'Login');
 
 Route::view('/customer', 'Customer');
 Route::get('/customer', 'CustomerController@index');
