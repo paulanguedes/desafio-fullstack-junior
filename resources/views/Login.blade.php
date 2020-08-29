@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>customerX</title>
+        <title>customerX - Login</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
@@ -15,8 +15,12 @@
     <body>
 
         <h1>customerX</h1>
+
+        @if (session('warning'))
+            {{ session('warning') }}
+        @endif
     
-        <form id="register">
+        <form method="post" action="{{ action('UserController@authenticate') }}" id="register"> 
             <h3>Login</h3>
             @csrf
             <label for="email">E-mail</label>
@@ -26,6 +30,8 @@
             <input type="password" name="password" id="password">
 
             <button id="loginbtn" type="submit">entrar</button>
+
+            <p> <a href="/">cadastrar-se</a> </p>
         </form>
         
     </body>
