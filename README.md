@@ -74,11 +74,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <p><a href="https://www.php.net/manual/pt_BR/intro-whatis.php">PHP</a></p>
 
 <h3 #autora align="center">Autora</h3>
-<img align="center" src="https://avatars0.githubusercontent.com/u/60984558?s=460&u=2ddbdca487ce4c1c8cfedbd47a0d5c11ff8b88b2&v=4" width="100px"/>
-<sub align="center"><b>Paula Nogueira Guedes</b></sub>
-<br/>
-<p align="center">Entre em contato!</p>
+<h4 align="center">Paula Nogueira Guedes</h4>
 
+<p align="center">Entre em contato!</p>
 <p align="center">
 paulanguedes@gmail.com <br>
 +55 11 99478-8188
