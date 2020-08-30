@@ -1,4 +1,4 @@
-![Alt text](../img/logo-verde.png?raw=true "Title")
+![Alt text](/img/logo-verde.png?raw=true "Title")
 
 <h1 align="center">Desafio de programação - CustomerX</h1>
 
