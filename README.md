@@ -1,6 +1,3 @@
-
-<img src="../public/img/logo-verde.png" width="200px">
-
 <h1 align="center">Desafio de programação - CustomerX</h1>
 
 <p align="center">
