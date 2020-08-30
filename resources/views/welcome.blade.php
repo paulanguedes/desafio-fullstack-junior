@@ -7,6 +7,7 @@
         <title>customerX - Cadastro</title>
 
         <!-- Fonts -->
+        <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../css/global.css">
@@ -14,7 +15,7 @@
     </head>
     <body>
 
-        <h1>customerX</h1>
+        <img id="logo" src="../img/logo-verde.png" alt="logo CustomerX">
 
         @if ($errors->any())
             <ul>

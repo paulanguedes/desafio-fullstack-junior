@@ -12,17 +12,15 @@ header {
     position: sticky;
     top: 0;
 }
-header h1 {
-    font: 4rem 'Amatic SC';
-    color: white;
-    text-shadow: 2px 2px 6px gray;
+header #logo {
+    width: 12rem;
     margin-left: 2rem;
 }
 header ul {
     list-style: none;
     display: flex;
     flex-direction: row;
-    margin-left: 40rem;
+    margin-left: 38rem;
 }
 header ul li {
     margin-left: 6rem;

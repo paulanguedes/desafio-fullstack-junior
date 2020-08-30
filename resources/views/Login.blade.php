@@ -14,7 +14,7 @@
     </head>
     <body>
 
-        <h1>customerX</h1>
+        <img id="logo" src="../img/logo-verde.png" alt="logo CustomerX">
 
         @if (session('warning'))
             {{ session('warning') }}

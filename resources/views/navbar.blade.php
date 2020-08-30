@@ -7,6 +7,7 @@
         <title>@yield('title')</title>
 
         <!-- Style -->
+        <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../css/navbar.css">
@@ -16,7 +17,7 @@
 
         <header>
             
-            <a href="/"><h1 id="logo">customerX</h1></a>
+            <a href="/"><img id="logo" src="../img/logo-branco.png" alt="logo CustomerX"></a>
             <ul>
                 <li><a id="add-customer" href="/customer">Clientes</a></li>
                 <li><a id="add-contact" href="/contact">Contatos</a></li>
