@@ -74,16 +74,18 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <p><a href="https://www.php.net/manual/pt_BR/intro-whatis.php">PHP</a></p>
 
 <h3 #autora align="center">Autora</h3>
-<img src="https://avatars0.githubusercontent.com/u/60984558?s=460&u=2ddbdca487ce4c1c8cfedbd47a0d5c11ff8b88b2&v=4" width="100px"/>
-<sub><b>Paula Nogueira Guedes</b></sub>
+<img align="center" src="https://avatars0.githubusercontent.com/u/60984558?s=460&u=2ddbdca487ce4c1c8cfedbd47a0d5c11ff8b88b2&v=4" width="100px"/>
+<sub align="center"><b>Paula Nogueira Guedes</b></sub>
 <br/>
-<p align="left">Entre em contato!</p>
+<p align="center">Entre em contato!</p>
 
-<p align="left">
+<p align="center">
 paulanguedes@gmail.com <br>
-+55 11 99478-8188 <br>
-<a href="https://www.linkedin.com/in/paulanguedes/"><img width="30px" src="https://i.stack.imgur.com/gVE0j.png"></a>
-<a href="https://github.com/paulanguedes"><img width="30px" src="https://i.stack.imgur.com/tskMh.png"></a>
++55 11 99478-8188
+</p>
+<p align="center">
+<a href="https://www.linkedin.com/in/paulanguedes/"><img width="20px" src="https://i.stack.imgur.com/gVE0j.png"></a>
+<a href="https://github.com/paulanguedes"><img width="20px" src="https://i.stack.imgur.com/tskMh.png"></a>
 </p>
 
-<h4>Obrigada!</h4>
+<h4 align="center">Obrigada!</h4>
