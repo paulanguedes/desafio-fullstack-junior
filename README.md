@@ -20,9 +20,9 @@ Cadastro básico de clientes com vínculo de contatos e um relatório que mostra
 <h3 #estrutura align="center">Estrutura</h3>
 <p align="left">O sistema consiste em três telas: </p>
 <ul>
-    <li> • Clientes</li>
-    <li> • Contatos</li>
-    <li> • Relatório</li>
+    <li>Clientes</li>
+    <li>Contatos</li>
+    <li>Relatório</li>
 </ul>
 <p align="left">
 Nas duas primeiras, é possível adicionar, editar ou excluir um cliente e/ou contatos. 
@@ -33,23 +33,23 @@ A tela de relatório é somente uma visualização.
 <p align="left">
 Para usar o sistema siga os seguintes passos:
 </p>
-<ul>
-    <li>1. Baixe ou faça um clone do repositório;</li>
-    <li>2. Ligue o Xampp (ou equivalente) e inicie o MySQL;</li>
-    <li>3. Inicie o terminal dentro do projeto, no seu repositório local;</li>
-    <li>4. Rode as migrations com o comando: php artisan migrate;</li>
-    <li>5. Rode as seeders com o comando: php artisan db:seed ;</li>
-    <li>6. Inicie o servidor com o comando: php artisan serve ;</li>
-    <li>7. Copie a url do terminal no seu navegador e pronto, você já tem acesso ao sistema.</li>
-</ul>
+<ol>
+    <li>Baixe ou faça um clone do repositório;</li>
+    <li>Ligue o Xampp (ou equivalente) e inicie o MySQL;</li>
+    <li>Inicie o terminal dentro do projeto, no seu repositório local;</li>
+    <li>Rode as migrations com o comando: php artisan migrate;</li>
+    <li>Rode as seeders com o comando: php artisan db:seed ;</li>
+    <li>Inicie o servidor com o comando: php artisan serve ;</li>
+    <li>Copie a url do terminal no seu navegador e pronto, você já tem acesso ao sistema.</li>
+</ol>
 
 <h3 #acesso align="center">Acessando o sistema</h3>
 <p align="left">
 A primeira página é a de cadastro. Você pode se cadatrar e ingressar no sistema ou efetuar o login com a conta de vivitante:
 </p>
 <ul>
-<li> • E-mail: guest@gmail.com</li>
-<li> • Senha: 123456</li>
+<li>E-mail: guest@gmail.com</li>
+<li>Senha: 123456</li>
 </ul>
 
 <h3 #funcionalidades align="center">Funcionalidades</h3>
@@ -68,18 +68,18 @@ A primeira página é a de cadastro. Você pode se cadatrar e ingressar no siste
 <p align="left">
 As seguintes ferramentas foram usadas na construção do projeto:
 </p>
-<a href="https://laravel.com/">Laravel</a>
-<a href="https://www.mysql.com/">MySQL</a>
-<a href="https://www.php.net/manual/pt_BR/intro-whatis.php">PHP</a>
+<p><a href="https://laravel.com/">Laravel</a></p>
+<p><a href="https://www.mysql.com/">MySQL</a></p>
+<p><a href="https://www.php.net/manual/pt_BR/intro-whatis.php">PHP</a></p>
 
 <h3 #autora align="center">Autora</h3>
-<img style="border-radius: 50%;" src="https://avatars0.githubusercontent.com/u/60984558?s=460&u=2ddbdca487ce4c1c8cfedbd47a0d5c11ff8b88b2&v=4" width="100px"/>
-<br/>
+<img border-radius="50%" src="https://avatars0.githubusercontent.com/u/60984558?s=460&u=2ddbdca487ce4c1c8cfedbd47a0d5c11ff8b88b2&v=4" width="100px"/>
 <sub><b>Paula Nogueira Guedes</b></sub>
-<p align="left"> Entre em contato! </p>
-<a href="https://www.linkedin.com/in/paulanguedes/"><img src="https://i.stack.imgur.com/gVE0j.png"></a>
-<a href="https://github.com/paulanguedes"><img src="https://i.stack.imgur.com/tskMh.png"></a>
-
-Obrigada!
-
-Por fim, envie um via e-mail com o link do projeto em seu repositório para o contato desenvolvimento@customerx.cx e ricardo.grassi@customerx.cx
+<br/>
+<p align="left">Entre em contato!</p>
+<p align="left">paulanguedes@gmail.com</p>
+<p align="left">+55 11 99478-8188</p>
+<p align="left"><a href="https://www.linkedin.com/in/paulanguedes/"><img width="20px" src="https://i.stack.imgur.com/gVE0j.png"></a></p>
+<p align="left"><a href="https://github.com/paulanguedes"><img width="20px" src="https://i.stack.imgur.com/tskMh.png"></a></p>
+<br/>
+<h4>Obrigada!</h4>
