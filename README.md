@@ -18,12 +18,12 @@ Cadastro básico de clientes com vínculo de contatos e um relatório que mostra
 </p>
 
 <h3 #estrutura align="center">Estrutura</h3>
-<p align="left">
-O sistema consiste em três telas:
-</p>
-- Clientes
-- Contatos
-- Relatório
+<p align="left">O sistema consiste em três telas: </p>
+<ul>
+    <li> • Clientes</li>
+    <li> • Contatos</li>
+    <li> • Relatório</li>
+</ul>
 <p align="left">
 Nas duas primeiras, é possível adicionar, editar ou excluir um cliente e/ou contatos. 
 A tela de relatório é somente uma visualização.
@@ -33,50 +33,52 @@ A tela de relatório é somente uma visualização.
 <p align="left">
 Para usar o sistema siga os seguintes passos:
 </p>
-- Baixe ou faça um clone do repositório;
-- Ligue o Xampp (ou equivalente) e inicie o MySQL;
-- Inicie o terminal dentro do projeto, no seu repositório local;
-- Rode as migrations com o comando: php artisan migrate;
-- Rode as seeders com o comando: php artisan db:seed;
-- Inicie o servidor com o comando: php artisan serve;
-- Copie a url do terminal no seu navegador e pronto, você já tem acesso ao sistema.
+<ul>
+    <li>1. Baixe ou faça um clone do repositório;</li>
+    <li>2. Ligue o Xampp (ou equivalente) e inicie o MySQL;</li>
+    <li>3. Inicie o terminal dentro do projeto, no seu repositório local;</li>
+    <li>4. Rode as migrations com o comando: php artisan migrate;</li>
+    <li>5. Rode as seeders com o comando: php artisan db:seed ;</li>
+    <li>6. Inicie o servidor com o comando: php artisan serve ;</li>
+    <li>7. Copie a url do terminal no seu navegador e pronto, você já tem acesso ao sistema.</li>
+</ul>
 
 <h3 #acesso align="center">Acessando o sistema</h3>
 <p align="left">
 A primeira página é a de cadastro. Você pode se cadatrar e ingressar no sistema ou efetuar o login com a conta de vivitante:
 </p>
-- E-mail: guest@gmail.com
-- Senha: 123456
+<ul>
+<li> • E-mail: guest@gmail.com</li>
+<li> • Senha: 123456</li>
+</ul>
 
 <h3 #funcionalidades align="center">Funcionalidades</h3>
-- [x] Cadastro de usuário
-- [x] Cadastro de clientes
-- [x] Edição de clientes
-- [x] Remoção de clientes
-- [x] Cadastro de contatos
-- [x] Edição de contatos
-- [x] Remoção de contatos
-- [ ] Autenticação de login e logout
+<ul>
+    <li>[x] Cadastro de usuário</li>
+    <li>[x] Cadastro de clientes</li>
+    <li>[x] Edição de clientes</li>
+    <li>[x] Remoção de clientes</li>
+    <li>[x] Cadastro de contatos</li>
+    <li>[x] Edição de contatos</li>
+    <li>[x] Remoção de contatos</li>
+    <li>[ ] Autenticação de login e logout</li>
+</ul>
 
 <h3 #tecnologias align="center">Tecnologias</h3>
 <p align="left">
 As seguintes ferramentas foram usadas na construção do projeto:
 </p>
-- [Laravel](https://laravel.com/)
-- [MySQL](https://www.mysql.com/)
-- [PHP](https://www.php.net/manual/pt_BR/intro-whatis.php)
-
+<a href="https://laravel.com/">Laravel</a>
+<a href="https://www.mysql.com/">MySQL</a>
+<a href="https://www.php.net/manual/pt_BR/intro-whatis.php">PHP</a>
 
 <h3 #autora align="center">Autora</h3>
 <img style="border-radius: 50%;" src="https://avatars0.githubusercontent.com/u/60984558?s=460&u=2ddbdca487ce4c1c8cfedbd47a0d5c11ff8b88b2&v=4" width="100px"/>
 <br/>
 <sub><b>Paula Nogueira Guedes</b></sub>
 <p align="left"> Entre em contato! </p>
-[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/feed/)
-&nbsp;
-[![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/paulanguedes)
-
-
+<a href="https://www.linkedin.com/in/paulanguedes/"><img src="https://i.stack.imgur.com/gVE0j.png"></a>
+<a href="https://github.com/paulanguedes"><img src="https://i.stack.imgur.com/tskMh.png"></a>
 
 Obrigada!
 
