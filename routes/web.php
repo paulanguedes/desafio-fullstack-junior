@@ -18,6 +18,7 @@ Route::post('/addUser', 'UserController@store')->name('addUser');
 
 Route::view('/login', 'Login');
 Route::post('/login', 'UserController@authenticate');
+Route::post('logout', 'UserController@logout')->name('logout');
 
 
 Route::view('/customer', 'Customer')->middleware('auth');

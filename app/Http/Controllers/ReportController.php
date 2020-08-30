@@ -6,11 +6,6 @@ use Illuminate\Support\Facades\DB;
 
 class ReportController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function index()
     {
         $reports = DB::table('customers')
@@ -18,8 +13,6 @@ class ReportController extends Controller
             ->select('customers.*', 'contacts.name', 'contacts.email', 'contacts.phone')
             ->get()
         ;
-
         return view('Report')->with('reports', $reports);
     }
-
 }

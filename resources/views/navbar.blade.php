@@ -20,7 +20,8 @@
             <ul>
                 <li><a id="add-customer" href="/customer">Clientes</a></li>
                 <li><a id="add-contact" href="/contact">Contatos</a></li>
-                <li><a id="report" href="/report">Relatório</a></li>  
+                <li><a id="report" href="/report">Relatório</a></li>
+                <li><a id="logout" href="/login">Logout</a></li>
             </ul>
 
         </header>

@@ -6,16 +6,10 @@ use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Session;
 
 class UserController extends Controller
 {
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
     public function store(Request $request)
     {
         $user = new User();
@@ -28,13 +22,6 @@ class UserController extends Controller
         Auth::login($user);
         return redirect('/customer');
     }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function authenticate(Request $request)
     {
         $credentials = $request->only(['email', 'password']);
@@ -46,5 +33,9 @@ class UserController extends Controller
                 ->with('warning', 'E-mail e/ou senha inválidos')
             ;
         }
+    }
+    public function logout(Request $request)
+    {
+        return redirect('/login')->with(Auth::logout());
     }
 }

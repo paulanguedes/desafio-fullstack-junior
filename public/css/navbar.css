@@ -22,7 +22,7 @@ header ul {
     list-style: none;
     display: flex;
     flex-direction: row;
-    margin-left: 44rem;
+    margin-left: 40rem;
 }
 header ul li {
     margin-left: 6rem;
