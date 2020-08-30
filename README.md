@@ -1,5 +1,5 @@
 
-<img src="../img/logo-verde.png" width="200px">
+<img src="../public/img/logo-verde.png" width="200px">
 
 <h1 align="center">Desafio de programação - CustomerX</h1>
 
